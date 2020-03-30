@@ -1,0 +1,1 @@
+const char ENCRYPTION_KEY[] = "B7D4A5A5DB721CB5";
