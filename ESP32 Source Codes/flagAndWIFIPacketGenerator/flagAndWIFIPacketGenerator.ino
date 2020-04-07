@@ -147,6 +147,7 @@ void ConnectToWiFi() {
 
   //  WiFi.mode(WIFI_STA);
   Serial.println(WiFi.macAddress());
+  WiFi.config(local_ip, gateway, subnet);
   WiFi.begin(SSID, WiFiPassword);
   Serial.print("Attempting to connect to WPA SSID: ");
   Serial.println(SSID);
